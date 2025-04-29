@@ -85,7 +85,8 @@ const router = useRouter()
     });
 
     try {
-     // @ts-expect-error
+   // @ts-expect-error: prop comes from dynamic route param and may be undefined
+
       await vapi.start(assistantOptions);
       console.log("Assistant Options:", assistantOptions);
     } catch (error) {
