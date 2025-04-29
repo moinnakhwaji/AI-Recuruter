@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  clerkId   String   @unique
+  email     String   @unique
+  name      String?
+  credits   Int      @default(10)
+  createdAt DateTime @default(now())
+  imageUrl  String?
+}
+
+model Interview {
+  jobposition    String
+  jobdescription String
+  createdAt      DateTime @default(now())
+  duration       String
+  questionlist   Json
+  useremail      String
+  interview_id   String   @id @default(uuid())
+}

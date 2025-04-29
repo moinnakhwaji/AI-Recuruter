@@ -1,0 +1,21 @@
+ GET /interview/d2fb30e3-674e-429d-b8cb-a0ceb6078de5/start 200 in 133ms
+Interview ID: d2fb30e3-674e-429d-b8cb-a0ceb6078de5
+(node:4060) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Extracted JSON String: {
+  "feedback": {
+    "rating": {
+      "technicalSkills": 0,
+      "communication": 0,
+      "problemSolving": 0,
+      "experience": 0
+    },
+    "summary": "Interview conversation content was not provided.\nUnable to assess candidate's performance.\nFeedback and ratings cannot be generated.",
+    "recommendation": false,
+    "recommendationMsg": "Cannot provide a hiring recommendation as the interview content is missing."
+  }
+}
+ POST /api/feedback/d2fb30e3-674e-429d-b8cb-a0ceb6078de5 200 in 11358ms
+ GET /interview/d2fb30e3-674e-429d-b8cb-a0ceb6078de5 200 in 477ms
+d2fb30e3-674e-429d-b8cb-a0ceb6078de5 id in backend
+ GET /api/interview/d2fb30e3-674e-429d-b8cb-a0ceb6078de5 200 in 1207ms
