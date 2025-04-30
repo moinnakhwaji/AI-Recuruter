@@ -19,7 +19,7 @@ const DashboardPage = async () => {
   return (
     <div className="px-6 py-6">
       <h2 className="px-6 py-4 text-3xl font-bold font-sans">Dashboard</h2>
-      <div className="flex justify-between items-center w-full mx-3">
+      <div className="flex md:flex-row m-2 justify-between items-center w-full mx-3 flex-col">
         <DashBoardCard
           icons={<Video />}
           heading="Create A New Interview"

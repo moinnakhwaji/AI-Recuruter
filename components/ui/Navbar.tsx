@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* Right side: Dashboard button and sign-in/sign-up buttons */}
       <div className="flex gap-6 items-center text-sm font-medium">
         <Link href="/dashboard">
-          <button className="px-4 py-1.5 bg-[#0a0a0] text-white rounded-md hover:bg-[#141414] transition-all duration-300">
+          <button className="px-4 py-1.5 bg-[#f1f1f1] text-black rounded-md hover:bg-[#141414] hover:text-[#f1f1f1] transition-all duration-300">
             Go to Dashboard
           </button>
         </Link>

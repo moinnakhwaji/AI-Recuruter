@@ -100,17 +100,18 @@ const ScheduleInterview = () => {
 
   return (
     <div className="w-full max-w-6xl mx-auto p-6">
-      <div className="flex justify-between items-center mb-8">
-        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
-          Previously Created Interviews
-        </h2>
-        <Link href="/create-interview">
-          <button className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-indigo-500/30">
-            <Plus size={18} />
-            New Interview
-          </button>
-        </Link>
-      </div>
+    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 space-y-4 sm:space-y-0">
+  <h2 className="text-2xl sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">
+    Previously Created Interviews
+  </h2>
+  <Link href="/create-interview">
+    <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 text-sm sm:text-base bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-indigo-500/30">
+      <Plus size={16} className="sm:size-5" />
+      <span className="hidden xs:inline">New Interview</span>
+    </button>
+  </Link>
+</div>
+
       
       {interviews.length === 0 ? (
         <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-12 text-center">

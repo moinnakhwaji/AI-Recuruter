@@ -160,6 +160,8 @@ const router = useRouter()
               src="/robot.gif"
               alt="AI Recruiter"
               className="w-full h-full object-cover"
+              width={100}
+              height={100}
             />
           </div>
           <p className="text-white font-medium">AI Recruiter</p>
