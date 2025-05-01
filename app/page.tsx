@@ -23,7 +23,10 @@ const page = async () => {
         title1="Revolutionizing Your"
         title2="Hiring Experience"
       />
- 
+
+   
+      
+
 
     </div>
   )

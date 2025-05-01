@@ -187,6 +187,7 @@ function HeroGeometric({
                    
                     <Button>Get started </Button>
                     </Link>
+                    <p className="text-white ">Made by Moin Nakhwaji</p>
                     <motion.div
                         custom={2}
                         variants={fadeUpVariants}
@@ -197,7 +198,8 @@ function HeroGeometric({
                         Revolutionizing recruitment with AI-driven, real-time voice interviews and instant feedback, streamlining the hiring process for a smarter, faster decision-making.
                         </p>
                     </motion.div>
-                
+                    
+
                 </div>
             </div>
 

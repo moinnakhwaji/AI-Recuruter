@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const Interviewlink = ({ data }: { data: any }) => {
-  const interviewLink = `https://ai-recuruters.vercel.app/interview/${data?.interview_id}`;
+  const interviewLink = `https://vocalhire-lime.vercel.app/interview/${data?.interview_id}`;
   console.log(interviewLink,"interview")
   console.log(`${process.env.NEXT_PUBLIC_HOST_url}`)
   const message = `Hi! 👋\n\nYou’ve been invited to attend an AI-powered interview. Please follow this link to begin:\n\n${interviewLink}\n\nThis link is valid for 30 days.`;
