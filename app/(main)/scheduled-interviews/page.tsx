@@ -131,14 +131,14 @@ const ScheduleInterview = () => {
           <div className="flex items-center justify-between mb-6">
             <div className="text-sm text-gray-400">{interviews.length} interview{interviews.length !== 1 ? 's' : ''} found</div>
             <div className="relative max-w-xs">
-              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              {/* <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <Search size={16} className="text-gray-500" />
               </div>
               <input 
                 type="text" 
                 className="bg-gray-800/70 border border-gray-700 text-gray-300 text-sm rounded-lg block w-full pl-10 p-2.5 focus:ring-indigo-500 focus:border-indigo-500" 
                 placeholder="Search interviews..." 
-              />
+              /> */}
             </div>
           </div>
           
