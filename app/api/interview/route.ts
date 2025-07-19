@@ -4,6 +4,7 @@ import { GoogleGenAI } from '@google/genai';
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY, // Ensure the API key is correctly set
 });
+console.log(process.env.GEMINI_API_KEY)
 
 const PROMPT = `You are an expert technical interviewer. Based on the following inputs, generate a well-structured list of high-quality interview questions: Job Title: {{jobTitle}} Job Description:{{jobDescription}} Interview Duration: {{duration}} Interview Type: {{type}}
 
@@ -27,7 +28,8 @@ export async function POST(req: any) {
       responseMimeType: 'text/plain',  // You can adjust MIME type based on your needs
     };
 
-    const model = 'gemini-2.5-flash-preview-04-17';  // Use the appropriate model
+ const model = 'gemini-2.5-flash';
+ // Use the appropriate model
 
     const contents = [
       {
