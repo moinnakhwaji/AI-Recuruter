@@ -76,6 +76,8 @@ const InterviewComplete = () => {
           <Image
 
             src="https://www.svgrepo.com/show/508699/landscape-placeholder.svg"
+            width={200}
+            height={200}
 
             alt="Interview Illustration"
 

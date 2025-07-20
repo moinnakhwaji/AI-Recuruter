@@ -27,7 +27,7 @@ export async function POST(req: any) {
       responseMimeType: 'text/plain',  // You can adjust MIME type based on your needs
     };
 
-    const model = 'gemini-2.5-flash-preview-04-17';  // Use the appropriate model
+    const model = 'gemini-1.5-flash';  // Use the appropriate model
 
     const contents = [
       {
