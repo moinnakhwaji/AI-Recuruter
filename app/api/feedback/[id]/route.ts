@@ -58,7 +58,7 @@ export async function POST(
     // Replace {{conversation}} inside the prompt
     const FinalPrompt = PROMPT.replace('{{conversation}}', conversation);
 
-    const model = 'gemini-2.5-flash-preview-04-17';
+     const model = 'gemini-1.5-flash';
 
     const contents = [
       {
