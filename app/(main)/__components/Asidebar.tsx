@@ -61,10 +61,10 @@ export function AppSidebar() {
           </p>
         </div>
         
-        <Link href="/pricing" className={getLinkClasses("/pricing")}>
+        {/* <Link href="/pricing" className={getLinkClasses("/pricing")}>
           <FileText size={18} className="text-inherit" />
           Pricing
-        </Link>
+        </Link> */}
       </SidebarContent>
       
       <SidebarFooter className="!bg-black border-t border-gray-800 px-4 py-3 flex items-center">

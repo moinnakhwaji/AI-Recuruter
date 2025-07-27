@@ -187,7 +187,7 @@ function HeroGeometric({
                    
                     <Button>Get started </Button>
                     </Link>
-                    <p className="text-white ">Made by Moin Nakhwaji</p>
+                    {/* <p className="text-white ">Made by Moin Nakhwaji</p> */}
                     <motion.div
                         custom={2}
                         variants={fadeUpVariants}
